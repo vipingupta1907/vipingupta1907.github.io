@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Vaisakh Shaj"
+title                    : "Vipin Gupta"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://vaisakh-shaj.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://vipingupta1907.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "vaisakh-shaj/vaisakh-shaj.github.io"
+repository               : "vipingupta1907/vipingupta1907.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -78,10 +78,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "vaisakh-shaj"
+  name             : "Vipin Gupta"
   avatar           : "avatar.png"
-  bio              : "AI-ML Enthusiast"
-  location         : "Karlsruhe"
+  bio              : "Robotics, Computer Vision Enthusiast"
+  location         : "Jabalpur, INDIA"
   employer         :
   googlescholar    :
   email            :
@@ -92,12 +92,12 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "vaisakh-shaj"
+  github           : "vipingupta1907"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : https://www.linkedin.com/in/vaisakh-shaj-80ba9b49/
+  linkedin         : https://www.linkedin.com/in/vipingupta1907/
   orcid            :
   pinterest        :
   soundcloud       :
