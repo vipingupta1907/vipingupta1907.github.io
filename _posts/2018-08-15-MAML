@@ -1,0 +1,62 @@
+---
+title: 'MAML: Model Aganostic Meta Learning and its Variants'
+date: 2018-08-15
+mathjax: true
+image: https://github.com/vaisakh-shaj/vaisakh-shaj.github.io/blob/master/_posts/Images/ddpg.png
+permalink: /posts/2018/08/MAML/
+tags:
+  - MetaLearning
+---
+
+This blogpost will talk about Meta Learning and very intuitive Meta Learning Algorithm Model Aganostic Meta Learning(MAML) and a couple of it's variants.
+
+#Meta Learning
+
+ Many problems of interest require rapid inference from small quantities of data. We should adopt learning strategies such that
+the single/few observations should result in abrupt shifts in behavior(single/few shot learning). When new data is encountered, the models must inefficiently relearn their parameters to adequately incorporate the new information without catastrophic interference.
+
+For example a robot designed to clean nuclear wastes, encounters a wide variety of tasks with many objects. It should be able to
+amortize their experience from previous learnt skills and improve data efficiency in acquiring new skills rather than Learning
+each skill from scratch.
+
+Another example would be malware vs clean classification task, where a classification engine has to adapt to the new malware variants being
+released each day. You would typically have few example per class for a new day(here the new task is classifying between
+malware and clean files encountered that particular day) and requires meta-learning for "few shot classification". (This would be an interesting
+application of meta learning to try out)
+
+<span style="color:green">Inspired from nature ?</span> This kind of flexible adaptation is a celebrated aspect of human learning (Jankowski et al., 2011), manifesting in settings ranging from motor control (Braun et al., 2009) to the acquisition of abstract concepts (Lake et al., 2015). Generating novel behavior based on inference from a few scraps
+of information – e.g., inferring the full range of applicability for a new word, heard in only one or two contexts – is
+something that has remained stubbornly beyond the reach of contemporary machine intelligence.
+
+<span style="color:#FF0000">**Why not Deep Learning ?**</span> In situations when only a few training examples are presented
+one-by-one, a straightforward gradient-based solution like Deep Neural Network is to completely re-learn the parameters from the data available at the moment. Such a strategy is prone to poor learning,
+and/or catastrophic interference. In view of these hazards, non-parametric methods are often considered to be better
+suited.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References
+1. Sutton et al. 1998[Policy Gradient Methods for RL with Function Approximation]( https://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)
+2. Silver et al. 2016 [Deterministic Policy Gradient Algorithms
+  ](http://proceedings.mlr.press/v32/silver14.pdf)
+3. [DDPG Blog](http://pemami4911.github.io/blog/2016/08/21/ddpg-rl.html)

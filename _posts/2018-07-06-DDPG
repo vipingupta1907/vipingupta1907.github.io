@@ -1,0 +1,9 @@
+---
+title: 'DDPG: Deep Deterministic Policy Gradients'
+date: 2018-07-07
+mathjax: true
+image: https://github.com/vaisakh-shaj/vaisakh-shaj.github.io/blob/master/_posts/Images/ddpg.png
+permalink: /posts/2018/07/DDPG/
+tags:
+  - KernelMethods
+---
